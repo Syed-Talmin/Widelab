@@ -51,7 +51,6 @@ tl.from(".hero-footer h3",{
 heroAnim()
 function page2Anim(){
     gsap.from(".page2 video",{
-        x:"-100%",
         opacity:0,
         duration:1,
         ease:Power2,
@@ -139,7 +138,7 @@ textSplit()
 
 function page4Anim(){
     gsap.from(".page4 .image-con",{
-        x:"-50%",
+        x:"-10%",
         opacity:0,
         duration:1,
         ease: Power4,
@@ -169,7 +168,7 @@ page4Anim()
 
 function page5Anim(){
     gsap.from(".page5 .image-con",{
-        x:"-50%",
+        x:"-10%",
         opacity:0,
         duration:1,
         ease: Power4,
